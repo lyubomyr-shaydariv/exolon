@@ -51,7 +51,7 @@ define(
       
       this.animationspeed = 2;
       
-      this.setVelocity(1.5, 2.75);
+      this.setVelocity(3, 2.75);
       this.gravity = 0.025;
       
       this.firePressed = me.input.isKeyPressed('fire');
