@@ -355,7 +355,7 @@ define(
       me.game.sort.defer();
       
       global.aliveGrenadesCount++;
-      util.updateGrenades(-1);
+      //util.updateGrenades(-1);
       
       me.audio.play("grenade");
     },
