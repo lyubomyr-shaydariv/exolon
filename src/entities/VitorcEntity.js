@@ -335,7 +335,7 @@ define(
       me.game.sort.defer();
       
       global.aliveBlasterBulletCount++;
-      util.updateAmmo(-1);
+      //util.updateAmmo(-1);
       
       me.audio.play("shot2");
     },
