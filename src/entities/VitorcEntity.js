@@ -31,7 +31,7 @@ define(
       
       this.collidable = true;
       
-      this.outfit = "vitorc";
+      this.outfit = "exolon";
       
       this.addAnimation("vitorc_stand", [0]);
       this.addAnimation("vitorc_move", [0,1,2,3,4,0,5,6,7,8]);
@@ -404,7 +404,7 @@ define(
     },
     
     doChangeOutfit: function () {
-      this.outfit = this.outfit == "vitorc" ? "exolon" : "vitorc";
+      //this.outfit = this.outfit == "vitorc" ? "exolon" : "vitorc";
     },
     
     createTeleportFlashes: function (teleports) {
