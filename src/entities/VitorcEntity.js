@@ -65,7 +65,7 @@ define(
       this.dieTimer = 0;
       this.dieDuration = 70;
       
-      this.invincible = false;
+      this.invincible = true;
       
       this.insideTeleport = false;
       this.thisTeleportGUID = null;
@@ -390,9 +390,9 @@ define(
     makeTemporarilyInvincible: function () {
       var self = this;
       this.invincible = true;
-      util.executeWithDelay(function () {
-        self.invincible = false;
-      }, VitorcEntity.INVINCIBILITY_DURATION);
+      //util.executeWithDelay(function () {
+      //  self.invincible = false;
+      //}, VitorcEntity.INVINCIBILITY_DURATION);
     },
     
     doTeleport: function () {
