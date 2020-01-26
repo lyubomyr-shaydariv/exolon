@@ -70,9 +70,9 @@ define(
     
   });
   
-  BlasterBulletEntity.SPEED = 6;
+  BlasterBulletEntity.SPEED = 18;
   BlasterBulletEntity.WIDTH = 16;
-  BlasterBulletEntity.RANGE = 210;
+  BlasterBulletEntity.RANGE = 420;
   
   return BlasterBulletEntity;
   
